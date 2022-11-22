@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(10, 192, 242);
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    flex: 2;
+}
+
+main aside {
+    background-color: rgb(37, 138, 227);
+    flex: 1;
+}
+
+main nav {
+    background-color: rgb(107, 13, 248);
+    flex: 1;
+}
+
+footer {
+    background-color: blueviolet;
+}
